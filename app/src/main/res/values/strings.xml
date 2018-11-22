@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyCustomDialogApplication</string>
+    <string name="app_name">My CustomDialog</string>
 
     <string name="hint_username">USERNAME</string>
     <string name="hint_password">PAASSWORD</string>

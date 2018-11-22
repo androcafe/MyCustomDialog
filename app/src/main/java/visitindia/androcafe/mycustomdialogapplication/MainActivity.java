@@ -7,11 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnShoeDialog;
+    Button btnShowDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Initialize Button
-        btnShoeDialog=findViewById(R.id.btn_shoe_dialog);
+        btnShowDialog=findViewById(R.id.btn_show_dialog);
 
         //set OnClickListener
-        btnShoeDialog.setOnClickListener(new View.OnClickListener() {
+        btnShowDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showCustomDialog();
@@ -51,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText edtPassword=viewCustomDialog.findViewById(R.id.edtp_password);
         Button buttonLogin=viewCustomDialog.findViewById(R.id.btn_login);
 
+        ImageView ivClose=viewCustomDialog.findViewById(R.id.iv_close);
+
 
         //set Onclickelistner to button
         buttonLogin.setOnClickListener(new View.OnClickListener() {
@@ -62,6 +65,13 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Username : "+username+"\nPassword : "+password, Toast.LENGTH_LONG).show();
 
                 //dismiss dialog after login
+                dialog.dismiss();
+            }
+        });
+
+        ivClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 dialog.dismiss();
             }
         });

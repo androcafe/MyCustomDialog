@@ -14,6 +14,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/btn_shoe_dialog"/>
+        android:background="@android:color/holo_blue_bright"
+        android:padding="10dp"
+        android:id="@+id/btn_show_dialog"/>
 
 </android.support.constraint.ConstraintLayout>
