@@ -1,6 +1,6 @@
 # MyCustomDialog
-Dialogs
-A dialog is a small window that prompts the user to make a decision or enter additional information.
+<b>Dialogs
+A dialog is a small window that prompts the user to make a decision or enter additional information.</b>
 
 <b>Steps to create custom dialog box :</b>
 1) Create layout for dialog in xml.
