@@ -15,7 +15,6 @@ Steps to create custom dialog box :
 
 Output for following program will be :
 
-<br><br>
 <div align="center">
     <img src="https://user-images.githubusercontent.com/35371687/48891457-6cd5f600-ee61-11e8-807e-1d583e45d509.png" width="400px" hspace="20"></img> 
     <img src="https://user-images.githubusercontent.com/35371687/48891459-6cd5f600-ee61-11e8-9dff-52cc5cff1004.png" width="400px"></img> 
